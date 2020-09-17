@@ -8,6 +8,14 @@
 #reneIMG:hover #reneIMG{
     display:none;
 }
+.navbar .navbar-nav{
+    margin-top: 2.5em;
+    font-size: 1.4em;
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+    text-transform:uppercase;
+}
 
 .btn{
     margin-bottom: 0.5em;
