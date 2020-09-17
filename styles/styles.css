@@ -1,7 +1,16 @@
 /* CSS files add styling rules to your content */
-#reneIMG:hover {
-    content: url("https://upload.wikimedia.org/wikipedia/en/1/10/Wild_Dog_%28DC_Comics_character%29.png");
+#hoverIMG{
+    display:none;
+}
+#reneIMG:hover #hoverIMG{
     display: block;
+}
+#reneIMG:hover #reneIMG{
+    display:none;
+}
+
+.btn{
+    margin-bottom: 0.5em;
 }
 body {
     font-family: helvetica, arial, sans-serif;
