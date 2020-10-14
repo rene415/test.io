@@ -28,5 +28,14 @@ body {
   h1 {
     font-style: italic;
     color: #373fff;
-  }
-  
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.display-4 {
+    text-align: center;
+}
+.desJumbo{
+    text-align: center;
+}
