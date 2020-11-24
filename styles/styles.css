@@ -39,3 +39,20 @@ body {
 .desJumbo{
     text-align: center;
 }
+.btnDiv{
+    margin-top:50px;
+  }
+  .aboutMeBtn{
+    text-decoration: none !important;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .aboutMeBtn:hover{
+    background-image: linear-gradient(to bottom right, #42588B, #A1AECB);
+    color:white;
+    border-width: 0.1px;
+  }
