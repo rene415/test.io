@@ -1,123 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-
-@media screen and (max-width:320px) {
-  .icentered{
-    margin-left:2.5em !important;
-  }
-  .leftmargin{
-    margin-left:1.5em !important;
-  }
-  .dcwidth{
-    width:12em !important;
-    font-size: 15px !important;
-  }
+/* CSS files add styling rules to your content */
+#hoverIMG{
+    display:none;
 }
-@media screen and (min-width:321px) and (max-width:375px) {
-  .icentered{
-    margin-left:4em !important;
-  }
-    .leftmargin{
-    margin-left:3em !important;
-  }
+#reneIMG:hover #hoverIMG{
+    display: block;
+}
+#reneIMG:hover #reneIMG{
+    display:none;
+}
+.navbar .navbar-nav{
+    margin-top: 2.5em;
+    font-size: 1.4em;
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+    text-transform:uppercase;
 }
 
-@media screen and (min-width:376px) and (max-width:425px) {
-  .icentered{
-    margin-left:5em !important;
-  }
-    .leftmargin{
-    margin-left:3em !important;
-  }
+.btn{
+    margin-bottom: 0.5em;
 }
-@media screen and (min-width:426px) and (max-width:768px) {
-  .icentered{
-    margin-left:7em !important;
-  }
-    .leftmargin{
-    margin-left:4em !important;
-  }
-}
-@media screen and (min-width:769px) {
-  .icentered{
-    margin-left:8em !important;
-  }
-  .leftmargin{
-    margin-left:4em !important;
-    width:20em;
-  }
-  .lwidth{
-    width:20em !important;
-  }
-    .dcwidth{
-    width:20em !important;
-  }
-}
-
-a {
-    color: #000000 !important;
-    text-decoration: none !important;
-}
-
-a:hover {
-    color:#007B23 !important; 
-    text-decoration:none; 
-    cursor:pointer;  
-}
-
 body {
-  background-color:#000000 !important;
-  font-family: 'Lilita One', cursive !important;
-  font-size: 1.1em !important;
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
 }
-
-.tsr{
-  padding-right:1em;
+.main{
+    display: flex;
+    justify-content: space-around;
 }
-.tsl{
-  padding-left:1em;
+.display-4 {
+    text-align: center;
 }
-.lwidth{
-  width:18rem;
+.desJumbo{
+    text-align: center;
 }
-.card-width{
-  width: 30rem;
-}
-
-.secbgcolor{
-  background-color:#00FF94 !important;
-}
-.card {
-  background-color:#FFECD6 !important;
-  border:0 !important;
-}
-
-.hl {
-  width:100px; margin: auto;
-  background-color: #00FF94;
-  border: 3px solid #00FF94;
-  border-radius: 7px 7px 7px 7px;
-  margin-bottom:20px;
-}
-
-.profile-picture {
-    border:5px solid #00FF94;
-    position:relative;
-    overflow:hidden;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin-top:-190px
-}
-
-.profile-picture img {
-    position:absolute;
-    height: auto;
-    width: auto;    
-    max-width:50%;
-}
-
-.centered img {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-}
+.btnDiv{
+    margin-top:50px;
+  }
+  .aboutMeBtn{
+    text-decoration: none !important;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .aboutMeBtn:hover{
+    background-image: linear-gradient(to bottom right, #42588B, #A1AECB);
+    color:white;
+    border-width: 0.1px;
+  }
