@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+a {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color:#007B23 !important; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+body {
+  font-family: 'Lilita One', cursive !important;
+  font-size: 1.1em !important;
+}
+
+.secbgcolor{
+  background-color:#00FF94 !important;
+}
+.card {
+  background-color:#FFECD6 !important;
+  border:0 !important;
+}
+
+.vl {
+  border-left: 6px solid #00FF94;
+  height: 50px;
+  padding-left:10px;
+}
+
+.profile-picture {
+    border:5px solid #00FF94;
+    position:relative;
+    overflow:hidden;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top:-190px
+}
+
+.profile-picture img {
+    position:absolute;
+    height: auto;
+    width: auto;    
+    max-width:50%;
+}
+
+.centered img {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
